@@ -3,7 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - course assignment portal - Higor Rofino"
+    />
+    <meta name="author" content="Higor Rofino" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>Higor Rofino - WDD 230 - Web Frontend Development</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="images/profile.webp" alt="Higor Rofino profile" width="150" />
+      <span>Higor Rofino</span>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="" id="active">Home</a></li>
+        <li><a href="">Chamber</a></li>
+        <li><a href="">Site Plan</a></li>
+        <li><a href="">Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>WDD 230: Web Frontend Development</h1>
+      <div id="boxes">
+        <section class="card">
+          <h2>Learning Activities</h2>
+          <ul>
+            <li>
+              Week 01:
+              <a
+                href="https://higorrofino.github.io/wdd230/week01/holygrail.html"
+                >Layout</a
+              >
+              |
+              <a
+                href="https://higorrofino.github.io/wdd230/week01/media-query.html"
+                >Media Query</a
+              >
+              |
+              <a href="">JS Pen</a>
+            </li>
+            <li>Week 02: <a href=""></a></li>
+            <li>Week 03: <a href=""></a></li>
+            <li>Week 04: <a href=""></a></li>
+            <li>Week 05: <a href=""></a></li>
+            <li>Week 06: <a href=""></a></li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2>Information</h2>
+          <p>Sao Paulo, Brazil</p>
+          <p>Weather</p>
+          <p>Page Visits:</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> | Higor Rofino | 🌇 Sao Paulo</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDate.js"></script>
+  </body>
 </html>
