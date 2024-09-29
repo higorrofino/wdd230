@@ -24,11 +24,13 @@
   </head>
   <body>
     <header>
-      <img src="images/profile.webp" alt="Higor Rofino profile" width="150" />
+      <img src="images/profile.webp" alt="Higor Rofino profile" width="150" >
       <span>Higor Rofino</span>
+      <button id="mode">◼️Dark Mode◻️ OFF</button>
     </header>
-
-    <nav>
+    
+    <a id="menu"></a>
+    <nav class="navigation">
       <ul>
         <li><a href="" id="active">Home</a></li>
         <li><a href="">Chamber</a></li>
@@ -92,5 +94,7 @@
       <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
   </body>
 </html>

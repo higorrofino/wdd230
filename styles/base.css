@@ -30,6 +30,17 @@ header {
   /* max-height: 120px; */
 }
 
+header button{
+  position: fixed;
+  top: 1rem;
+  right: 0;
+  text-decoration: none;
+  color: #042a66fd;
+  border: 2px solid #042a66fd;
+  padding: 0.2rem;
+  border-radius: 10%;
+}
+
 header span {
   margin: 3rem;
   color: #042a66fd;
@@ -41,8 +52,35 @@ header img {
   box-shadow: 0 0 5px 5px #000000ac;
 }
 
+#menu {
+	font-size: 1.5rem;
+	color: #fff;
+  text-decoration: none;
+  margin: 0 auto;
+  max-width: 850px;
+  background-color: #042a66fd;
+  display: block;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+#menu::before{
+  content: "☰";
+}
+
+#menu.show::before{
+  content: "❌";
+}
+
+.navigation.show{
+  display: block;
+}
+
 nav {
   background-color: #042a66fd;
+  flex-direction: column;
+  list-style: none;
+  display: none;
 }
 
 nav ul {
