@@ -7,11 +7,42 @@
   <meta name="description" content="Chamber of Commerce for college project">
   <link rel="icon" href="favicon.ico">
   <meta property="og:type" content="Website">
-  <meta property="og:url" content="">
+  <meta property="og:url" content="https://higorrofino.github.io/wdd230/chamber/index.html">
   <meta property="og:image" content="https://higorrofino.github.io/wdd230/chamber/images/jundiai-city.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
   <title>Jundiai Chamber of Commerce</title>
 </head>
 <body>
-  
+  <header>
+    <img src="images/city-header.png" alt="City image">
+    <span>Jundiai Chamber of Commerce</span>
+  </header>
+
+  <a id="menu"></a>
+  <nav class="navigation">
+    <ul>
+      <li><a id="active" href="">Home</a></li>
+      <li><a href="">Page 2</a></li>
+      <li><a href="">Page 3</a></li>
+      <li><a href="">Page 4</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>Hero Image</section>
+    <section>Call To Action</section>
+    <section>Current Events</section>
+    <section>Weather Card</section>
+    <section>Spotlights</section>
+  </main>
+  <footer>
+    <p>© <span id="year"></span> | Higor Rofino | Chamber of Commerce project for class WDD 230</p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/hamMenu.js"></script>
+  <script src="scripts/getDates.js"></script>
 </body>
 </html>

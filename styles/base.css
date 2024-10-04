@@ -31,7 +31,6 @@ header {
 }
 
 header button{
-  position: fixed;
   top: 1rem;
   right: 0;
   text-decoration: none;
@@ -145,6 +144,10 @@ h1 {
 
 .card a {
   color: blue;
+}
+
+.iframe{
+  text-align: center;
 }
 
 footer {
