@@ -14,6 +14,10 @@
     flex: 1 1 100%;
   }
 
+  .hero span {
+    font-size: 100%;
+  }
+
   #boxes {
     display: grid;
     grid-template-columns: 2fr 1fr;

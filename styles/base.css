@@ -1,5 +1,5 @@
 * {
-  margin: 0 0.1rem;
+  margin: 0;
   border: 0;
   box-sizing: border-box;
 }
@@ -13,12 +13,12 @@ header,
 nav,
 footer {
   margin: 0 auto;
-  max-width: 850px;
+  max-width: 960px;
 }
 
 main {
-  margin: 0 auto;
-  max-width: 800px;
+  margin: auto;
+  max-width: 960px;
 }
 
 header {
@@ -104,6 +104,27 @@ nav a:hover {
   color: #ffa500;
 }
 
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero span {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  text-align: center;
+  font-size: 70%;
+}
+
 h1 {
   margin: 1rem 0;
   font-family: "Roboto", sans-serif;
@@ -148,6 +169,12 @@ h1 {
 
 .iframe{
   text-align: center;
+}
+
+iframe {
+  width: 100%;
+  max-width: 960px;
+  padding: 1rem;
 }
 
 footer {
