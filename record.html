@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,900&display=swap"
+      rel="stylesheet">
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - course assignment portal - Higor Rofino">
+    <meta name="author" content="Higor Rofino">
+    <meta property="og:title" content="Higor Rofino - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://higorhomepage.com">
+    <meta property="og:image" content="https://higorrofino.github.io/wdd230/images/jundiai-city.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Higor Rofino - WDD 230 - Web Frontend Development</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/profile.webp" alt="Higor Rofino profile" width="150" >
+      <span>Higor Rofino</span>
+      <button id="mode">◼️Dark Mode◻️ OFF</button>
+    </header>
+    
+    <a id="menu"></a>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="form.html" id="active">Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Register Here</h1>
+      <h2>Informations registered</h2>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> | Higor Rofino | 🌇 Sao Paulo</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitsCounter.js"></script>
+  </body>
+</html>

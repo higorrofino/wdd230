@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,900&display=swap"
+      rel="stylesheet">
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - course assignment portal - Higor Rofino">
+    <meta name="author" content="Higor Rofino">
+    <meta property="og:title" content="Higor Rofino - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://higorhomepage.com">
+    <meta property="og:image" content="https://higorrofino.github.io/wdd230/images/jundiai-city.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Higor Rofino - WDD 230 - Web Frontend Development</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/profile.webp" alt="Higor Rofino profile" width="150" >
+      <span>Higor Rofino</span>
+      <button id="mode">◼️Dark Mode◻️ OFF</button>
+    </header>
+    
+    <a id="menu"></a>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="form.html" id="active">Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Register Here</h1>
+      <form method="get" action="record.html">
+        <label>
+          Username*
+          <input type="text" name="username" id="user1" required>
+        </label>
+        <label>
+          Password*
+          <input type="password" name="password" id="pass1" pattern="[a-zA-Z0-9]{8,}" required>
+        </label>
+        <label>
+          Re-enter your password*
+          <input type="password" name="password2" id="pass2" pattern="[a-zA-Z0-9]{8,}" required>
+          <div id="message"></div>
+        </label>
+        <label>
+          E-mail*
+          <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" required>
+        </label>
+        <label>
+          Page rating
+          <div id="rangevalue">1</div>
+          <input type="range" name="range" id="range" value="1" min="1" max="10" step="1" list="rangevalues">
+          <datalist id="rangevalues">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+        </label>
+
+        <input type="submit" name="submit" id="submit" value="Register my Information ">
+      </form>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> | Higor Rofino | 🌇 Sao Paulo</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitsCounter.js"></script>
+    <script src="scripts/passwordCheck.js"></script>
+    <script src="scripts/rangeValue.js"></script>
+  </body>
+</html>
