@@ -1,0 +1,23 @@
+{
+  "familyName" : "Rofino",
+  "arrivedDate" : "2024-02-10",
+  "numbRecords" : 3,
+  "visitedBishopric" : true,
+  "familyMembers" : [
+    {
+      "name" : "Higor",
+      "gender" : "Male",
+      "birthdate" : "1998-05-24"
+    },
+    {
+      "name" : "Giovanna",
+      "gender" : "Female",
+      "birthdate" : "1999-01-22"
+    },
+    {
+      "name" : "Maria",
+      "gender" : "Female",
+      "birthdate" : "2023-07-21"
+    }
+  ]
+}
