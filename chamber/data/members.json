@@ -4,7 +4,7 @@
       "address": "1234 Silicon Valley St, San Francisco, CA, 94103",
       "phone": "(415) 555-1234",
       "website": "https://www.techinnovations.com",
-      "image": "tech_innovations.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/tech_innovations.png",
       "membershipLevel": "Gold",
       "founded": 2010
   },
@@ -13,7 +13,7 @@
       "address": "5678 Eco Lane, Austin, TX, 73301",
       "phone": "(512) 555-5678",
       "website": "https://www.greenenergysolutions.com",
-      "image": "green_energy.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/green_energy.png",
       "membershipLevel": "Silver",
       "founded": 2015
   },
@@ -22,7 +22,7 @@
       "address": "9101 Health Blvd, New York, NY, 10001",
       "phone": "(212) 555-9101",
       "website": "https://www.healthfirstgroup.com",
-      "image": "health_first.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/health_first.png",
       "membershipLevel": "Platinum",
       "founded": 2005
   },
@@ -31,7 +31,7 @@
       "address": "2345 Commerce Rd, Chicago, IL, 60601",
       "phone": "(312) 555-2345",
       "website": "https://www.globalretailers.com",
-      "image": "global_retailers.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/global_retailers.png",
       "membershipLevel": "Gold",
       "founded": 1998
   },
@@ -40,7 +40,7 @@
       "address": "6789 Finance St, London, UK, EC1A 1BB",
       "phone": "+44 20 7946 0958",
       "website": "https://www.fintechinnovations.com",
-      "image": "fintech_innovations.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/fintech_innovations.png",
       "membershipLevel": "Silver",
       "founded": 2018
   },
@@ -49,7 +49,7 @@
       "address": "1357 Smart Ave, Seattle, WA, 98101",
       "phone": "(206) 555-1357",
       "website": "https://www.smarthometechnologies.com",
-      "image": "smart_home.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/smart_home.png",
       "membershipLevel": "Bronze",
       "founded": 2017
   },
@@ -58,7 +58,7 @@
       "address": "2468 Adventure Way, Miami, FL, 33101",
       "phone": "(305) 555-2468",
       "website": "https://www.travelglobe.com",
-      "image": "travel_globe.png",
+      "image": "https://higorrofino.github.io/wdd230/chamber/images/travel_globe.png",
       "membershipLevel": "Gold",
       "founded": 2000
   }
