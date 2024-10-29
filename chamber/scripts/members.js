@@ -4,37 +4,44 @@ const cards = document.querySelector('#cards');
 async function getMemberData() {
   const response = await fetch(url);
   const data = await response.json();
-  console.table(data);
-  // displayProphets(data.members);
+  // console.table(data);
+  displayMembers(data.members);
 }
 
-// const displayProphets = (prophets) => {
-//   prophets.forEach(prophet => {
-//     let card = document.createElement('section');
-//     let fullName = document.createElement('h2');
-//     let birth = document.createElement('p');
-//     let place = document.createElement('p');
-//     let portrait = document.createElement('img');
+const displayMembers = (members) => {
+  members.forEach(member => {
+    let card = document.createElement('section');
+    let name = document.createElement('h2');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let website = document.createElement('p');
+    let membershipLevel = document.createElement('p');
+    let founded = document.createElement('p');
+    let image = document.createElement('img');
 
-//     fullName.textContent = `${prophet.name} ${prophet.lastname}`
+    name.textContent = `${member.name}`
+    address.textContent = `Address: ${member.address}`;
+    phone.textContent = `Phone: ${member.phone}`;
+    website.textContent = `Website: ${member.website}`;
+    membershipLevel.textContent = `Membership Level: ${member.membershipLevel}`;
+    founded.textContent = `Founded: ${member.founded}`;
 
-//     birth.textContent = `Date of Birth: ${prophet.birthdate}`;
+    image.setAttribute('src', member.image);
+    image.setAttribute('alt', `${name}`);
+    image.setAttribute('loading', 'lazy');
+    image.setAttribute('width', '100');
+    image.setAttribute('height', '100');
+
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
+    card.appendChild(membershipLevel);
+    card.appendChild(founded);
+    card.appendChild(image);
     
-//     place.textContent = `Place of Birth: ${prophet.birthplace}`;
-
-//     portrait.setAttribute('src', prophet.imageurl);
-//     portrait.setAttribute('alt', `Portrait of ${fullName}`);
-//     portrait.setAttribute('loading', 'lazy');
-//     portrait.setAttribute('width', '300');
-//     portrait.setAttribute('height', '400');
-
-//     card.appendChild(fullName);
-//     card.appendChild(birth);
-//     card.appendChild(place);
-//     card.appendChild(portrait );
-
-//     cards.appendChild(card);
-//   });
-// }
+    cards.appendChild(card);
+  });
+}
 
 getMemberData();
