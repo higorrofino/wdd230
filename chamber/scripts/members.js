@@ -1,5 +1,5 @@
 const url = "https://raw.githubusercontent.com/higorrofino/wdd230/refs/heads/main/chamber/data/members.json";
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('#cardsDirectory');
 
 async function getMemberData() {
   const response = await fetch(url);
