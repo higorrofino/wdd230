@@ -18,6 +18,20 @@
   #menu {
     display: none;
   }
+
+  #boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #box3 {
+    grid-column: 1 / span 2;
+  }
+
+  #weather{
+    top: 50%;
+    left: 50%;
+  }
   
   .discover{
     display: grid;

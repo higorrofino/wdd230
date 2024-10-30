@@ -29,15 +29,33 @@
       <li><a id="active" href="">Home</a></li>
       <li><a href="discover.html">Discover</a></li>
       <li><a href="directory.html">Directory</a></li>
-      <li><a href="">Page 4</a></li>
     </ul>
   </nav>
   <main>
-    <section>Hero Image</section>
-    <section>Call To Action</section>
-    <section>Current Events</section>
-    <section>Weather Card</section>
-    <section>Spotlights</section>
+    <img src="images/hero.jpg" alt="Hero Image" id="hero">
+    <div id="boxes">
+      <div class="card">
+        <h2>Upcomming Events</h2>
+        <ul>
+          <li>07/11 - Love Togheter Jundiai Gala</li>
+          <li>13/11 - Investment Opportunities</li>
+          <li>14/11 - Mastering College Applications</li>
+          <li>02/12 - Holiday Cocktail Reception</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Jundiai Weather</h2>
+        <div id="weather">
+          <img id="weather-icon">
+          <p id="temp"></p>
+          <p id="desc"></p>
+        </div>
+      </div>
+      <div class="card" id="box3">
+        <h2>Spotlights</h2>
+        <div id="spotlights"></div>
+      </div>
+    </div>
   </main>
   <footer>
     <p>© <span id="year"></span> | Higor Rofino | Chamber of Commerce project for class WDD 230</p>
@@ -45,5 +63,7 @@
   </footer>
   <script src="scripts/hamMenu.js"></script>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/spotlights.js"></script>
 </body>
 </html>
